@@ -228,7 +228,7 @@ text-align: center;
     justify-content: center;
     flex-direction: row;
     border-radius: 16px;
-    gap: 136;
+    gap: 136px;
     padding: 112px;
 
 box-shadow: 0px 36px 105px 0px rgba(43, 56, 76, 0.1);
@@ -236,35 +236,45 @@ box-shadow: 0px 36px 105px 0px rgba(43, 56, 76, 0.1);
 background: rgb(255, 255, 255);
 }
 #hero_about #about .left_side{
-
+ position: relative;
 }
 #hero_about #about .left_side img{
-    width: 100%;
+    width: 424px;
+    height: 468px;
     border: 1px solid rgb(240, 241, 243);
     border-radius: 10px;
 }
 #hero_about #about .left_side .social_media{
+position: absolute;
+bottom: -20px;
+/* padding: 0 20px; */
+/* text-align: center; */
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+#hero_about #about .left_side .social_media .social_icons {
     display: flex;
    flex-direction: row;
    justify-content: center;
    align-items: center;
    padding: 12px;
    border-radius: 4px;
-
    box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
    /* Gray/White */
    background: rgb(255, 255, 255);
 }
-#hero_about #about .left_side .social_media .social_icon{
+#hero_about #about .left_side .social_media .social_icons .social_icon_item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /* gap: 10px; */
     padding: 15px;
+    background: rgb(255, 255, 255);
 }
 
-#hero_about #about .left_side .social_media .social_icon.active {
+#hero_about #about .left_side .social_media .social_icons .social_icon_item.active {
     border-radius: 4px;
 
     box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
@@ -272,12 +282,84 @@ background: rgb(255, 255, 255);
     background: rgb(165, 61, 255);
 }
 
-#hero_about #about .right_side{}
-#hero_about #about .right_side h2{}
-#hero_about #about .right_side p{}
-#hero_about #about .right_side .action{}
-#hero_about #about .right_side .action .project_btn{}
-#hero_about #about .right_side .action .download_btn{}
+#hero_about #about .right_side{
+
+}
+#hero_about #about .right_side h2{
+  color: rgb(19, 34, 56);
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+#hero_about #about .right_side p{
+  /* Body/Large/400 */
+  color: rgb(85, 96, 112);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+#hero_about #about .right_side .action{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16px;
+padding: 0px;
+}
+#hero_about #about .right_side .action .project_btn{
+    border-radius: 4px;
+
+/* Primary/500 */
+background: rgb(165, 61, 255);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 12px;
+padding: 12px 24px 12px 24px;
+/* Body/Regular/600 */
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+border: none;
+}
+#hero_about #about .right_side .action .download_btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 12px;
+padding: 12px 24px 12px 24px;
+    box-sizing: border-box;
+/* Primary/500 */
+border: 1px solid rgb(165, 61, 255);
+border-radius: 4px;
+
+/* Gray/White */
+background: rgb(255, 255, 255);
+
+ /* Body/Regular/600 */
+color: rgb(165, 61, 255);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
 #hero_about #about .right_side .action .download_btn svg{}
 #hero_about #about .right_side .action .download_btn span{}
 /* Hero About Section End */
