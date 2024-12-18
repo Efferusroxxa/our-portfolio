@@ -889,3 +889,113 @@ border-radius: 100%;
 
 }
 /* Blog Section End */
+
+/* What I Do Start */
+#what_i_do{
+    padding: 150px 0px 140px 0px;
+    /* up right bottom left */
+    /* Gray/50 */
+   background: rgb(240, 241, 243);
+}
+.what_i_do{
+
+}
+.what_i_do_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 143px;
+}
+.what_i_do_left_side{}
+.what_i_do_left_side_title{
+    /* Heading/01 */
+color: rgb(19, 34, 56);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: left;
+margin: 24px 0px;
+}
+.what_i_do_left_side_description{
+    /* Body/Large/400 */
+color: rgb(105, 116, 132);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.what_i_do_left_side_btn{
+    border-radius: 4px;
+
+/* Primary/500 */
+background: rgb(165, 61, 255);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 12;
+padding: 12px 24px 12px 24px;
+/* Body/Regular/600 */
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+margin-top: 50px;
+}
+.what_i_do_right_side{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+.what_i_do_right_side_item{
+    border-radius: 12px;
+
+box-shadow: 32px 32px 124px 0px rgba(43, 56, 76, 0.1);
+/* Gray/White */
+background: rgb(255, 255, 255);
+gap: 16px;
+padding: 20px 32px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.what_i_do_right_side_item.active{
+    border-left: 4px solid rgb(165, 61, 255);
+}
+.what_i_do_right_side_item_description{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12px;
+padding: 0px;
+}
+.what_i_do_right_side_item_description_title{
+    /* Heading/05 */
+color: rgb(19, 34, 56);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.what_i_do_right_side_item_description_details{
+    color: rgb(85, 96, 112);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* What I Do End */
