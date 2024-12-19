@@ -1163,6 +1163,34 @@ background: rgb(195, 199, 206);
 }
 
 /* Testimonial End */
+/* Contact Section Start */
+.contact_us_container{}
+.contact_us_container .discussion{}
+.contact_us_container .discussion .content{}
+.contact_us_container .discussion .content h2{}
+.contact_us_container .discussion .content p{}
+.contact_us_container .discussion .address_card{}
+.contact_us_container .discussion .address_card .address_card_item{}
+.contact_us_container .discussion .address_card .address_card_item .icon{}
+.contact_us_container .discussion .address_card .address_card_item .icon .icon_container{}
+.contact_us_container .discussion .address_card .address_card_item .icon .icon_container svg{}
+.contact_us_container .discussion .address_card .address_card_item .icon{}
+.contact_us_container .discussion .address_card .address_card_item .content{}
+.contact_us_container .discussion .address_card .address_card_item .content h6{}
+.contact_us_container .discussion .address_card .address_card_item .content h5{}
+.contact_us_container .discussion .social_media{}
+.contact_us_container .discussion .social_media_item{}
+.contact_us_container .discussion .social_media_item svg{}
+.contact_us_container .information{}
+.contact_us_container .information p{}
+.contact_us_container .information form{}
+.contact_us_container .information form .inputs_container{}
+.contact_us_container .information form .inputs_container .inputs_item{}
+.contact_us_container .information form .inputs_container .budget_support{}
+.contact_us_container .information form .submit_btn{}
+.contact_us_container .information form .submit_btn span{}
+.contact_us_container .information form .submit_btn svg{}
+/* Contact Section End */
 /* Footer Section Start */
 footer{
     /* Gray/800 */
