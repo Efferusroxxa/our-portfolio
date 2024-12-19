@@ -999,3 +999,50 @@ letter-spacing: 0%;
 text-align: left;
 }
 /* What I Do End */
+/* Happy Clients Start */
+#happy_clients{
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+.happy_clients_title{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24px;
+padding: 0px;
+}
+.happy_clients_icons h2{
+    /* Heading/01 */
+color: rgb(19, 34, 56);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+}
+.happy_clients_title p{
+    /* Body/Large/400 */
+color: rgb(135, 144, 157);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.happy_clients_icons{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24px;
+padding: 0px;
+}
+.happy_clients_icons img{}
+/* Happy Clients End */
