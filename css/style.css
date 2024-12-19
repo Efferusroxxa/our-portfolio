@@ -61,7 +61,7 @@ img{
     border-radius: 100%;
     background-color: rgb(165, 61, 255);
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 .logo_icon_container span{
@@ -1016,7 +1016,7 @@ align-items: center;
 gap: 24px;
 padding: 0px;
 }
-.happy_clients_icons h2{
+.happy_clients_title h2{
     /* Heading/01 */
 color: rgb(19, 34, 56);
 font-family: Work Sans;
@@ -1165,23 +1165,92 @@ background: rgb(195, 199, 206);
 /* Testimonial End */
 /* Footer Section Start */
 footer{
+    /* Gray/800 */
+    background: rgb(43, 56, 76);
+    padding: 160px 0px 50px 0px;
+}
+.footer_container{
     display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-gap: 182;
-padding: 160px 0px 50px 0px;
-    /* Gray/800 */
-background: rgb(43, 56, 76);
+gap: 182px;
 }
- footer .logo{}
- footer .logo .logo_icon_container{}
- footer .logo .logo_icon_container h3{}
- footer .logo h3{}
- footer .menu{}
- footer .menu_item{}
- footer .menu_item a{}
- footer p{}
+ .footer_container .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0px;
+ }
+ .footer_container .logo .logo_icon_container{
+    border-radius: 1000px;
+
+/* Primary/500 */
+background: rgb(165, 61, 255);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* gap: 10px; */
+/* padding: 0px 20px 0px 20px; */
+ }
+ .footer_container .logo .logo_icon_container h3{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+ }
+ .footer_container .logo h3{
+    /* Heading/03 */
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .footer_container .menu{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+ }
+ .footer_container .menu_item{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 12px;
+ }
+ .footer_container .menu_item a{
+    /* Body/Regular/400 */
+color: rgb(240, 241, 243);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+ }
+ .footer_container .copyright {
+    /* Body/Regular/400 */
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+ }
 /* Footer Section end */
 
 
