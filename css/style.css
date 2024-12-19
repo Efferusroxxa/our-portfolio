@@ -1157,9 +1157,31 @@ background: rgb(33, 12, 51);
     width: 8px;
     height: 8px;
     border-radius: 100px;
-    
+
    /* Gray/200 */
 background: rgb(195, 199, 206);
 }
 
 /* Testimonial End */
+/* Footer Section Start */
+footer{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 182;
+padding: 160px 0px 50px 0px;
+    /* Gray/800 */
+background: rgb(43, 56, 76);
+}
+ footer .logo{}
+ footer .logo .logo_icon_container{}
+ footer .logo .logo_icon_container h3{}
+ footer .logo h3{}
+ footer .menu{}
+ footer .menu_item{}
+ footer .menu_item a{}
+ footer p{}
+/* Footer Section end */
+
+
