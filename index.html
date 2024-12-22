@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Portfolio Tailwindcss</title>
-     <link rel="stylesheet" href="./css/style.css" />
+     <link rel="stylesheet" href="./css/style.css" /> 
+     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
   <!-- Navbar Start -->
-  <nav id="navbar" class="container">
-    <div class="navbar_left_side">
+  <nav id="navbar" class="container p-2 flex items-center justify-between">
+    <div class="navbar_left_side flex gap-2">
       <div class="logo_icon_container">
         <span>B</span>
       </div>
       <h3 class="logo_name">Brooklyn</h3>
     </div>
     <svg 
-    class="mobile_menu"
+    class=" block md:hidden"
     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M3 16h18v2H3zm0-5h18v2H3zm0-5h18v2H3z"/></svg>
-    <div class="navbar_right_side">
+    <div class=" hidden lg:flex gap-2">
       <div class="navbar_link"> 
         <span>Home</span>
      </div>
